@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js">  </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }     
+
+        body {
+            background-image: url(https://c.wallhere.com/photos/c6/b9/Adventure_Time_Jake_the_Dog_Finn_the_Human_artwork_yellow-1367987.jpg!d);
+            color: rgb(48, 60, 61);  
+        }
+        .time{
+            font-size: 100px;
+            font-weight: bold;
+        }
+        
+        .greeting{
+            font-size: 40px;
+        }
+        
+        .todo{
+            font-size: 30px;
+        }
+        
+        .author{
+            font-size: 20;
+            font-style: italic;
+        }
+
+        .main{
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote{
+            width: 100vw;
+            height: 10vw;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">HELLO, WOODY</div>
+        <div class="todo">GOOD NIGTH😴</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- JOJO - </div>
+        <div id="content" class="content">" 내일 조조의 점심은 시리얼이라고 한다 "</div>
+    </div>
+
+</body>
+
+</html>
